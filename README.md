@@ -27,6 +27,12 @@ Start MongoDB
 docker run --rm --name mongodb -d -p 27017:27017 mongo:latest 
 ```
 
+asdf
+```
+asdf install dotnet-core 6.0.200
+asdf global dotnet-core 6.0.200
+```
+
 Run application
 ```
 dotnet restore
